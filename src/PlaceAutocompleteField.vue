@@ -1,5 +1,5 @@
 <template>
-    <div class="autocomplete-field" @keydown="onKeydown" @keyup="onKeyup">
+    <div class="autocomplete-field" @keydown="onKeydown" @keyup="onKeyup" role="combobox" aria-haspopup="listbox">
         <input-field
             v-model="query"
             v-bind-events
@@ -8,6 +8,8 @@
             :errors="errors"
             :value="value"
             :custom="custom"
+            aria-autocomplete="both"
+            aria-controls="vue-place-autocomplete-listbox"
             autocomplete="no"
             @blur="onBlur"
             @focus="onFocus"
