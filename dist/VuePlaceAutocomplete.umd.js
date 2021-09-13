@@ -1126,12 +1126,12 @@ function update(binding, vnode, value) {
   }
 
 });
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"75de8e9a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/PlaceAutocompleteField.vue?vue&type=template&id=73cf674d&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"autocomplete-field",attrs:{"role":"combobox","aria-haspopup":"listbox"},on:{"keydown":_vm.onKeydown,"keyup":_vm.onKeyup}},[_c('input-field',_vm._b({directives:[{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"value":_vm.value,"custom":_vm.custom,"aria-autocomplete":"both","aria-controls":"vue-place-autocomplete-listbox","autocomplete":"no"},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":function($event){return _vm.$emit('input', _vm.query)}},model:{value:(_vm.query),callback:function ($$v) {_vm.query=$$v},expression:"query"}},'input-field',_vm.$attrs,false),[(_vm.showActivityIndicator)?_c('activity-indicator',{attrs:{"size":"xs","type":"spinner"}}):_vm._e()],1),(_vm.predictions && _vm.showPredictions)?_c('place-autocomplete-list',{attrs:{"items":_vm.predictions},on:{"item:click":_vm.onItemClick,"item:blur":_vm.onItemBlur}}):_vm._e()],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"75de8e9a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/PlaceAutocompleteField.vue?vue&type=template&id=2f24ad65&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"autocomplete-field",attrs:{"role":"combobox","aria-haspopup":"listbox"},on:{"keydown":_vm.onKeydown,"keyup":_vm.onKeyup}},[_c('input-field',_vm._b({directives:[{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"value":_vm.value,"custom":_vm.custom},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":function($event){return _vm.$emit('input', _vm.query)}},model:{value:(_vm.query),callback:function ($$v) {_vm.query=$$v},expression:"query"}},'input-field',_vm.$attrs,false),[(_vm.showActivityIndicator)?_c('activity-indicator',{attrs:{"size":"xs","type":"spinner"}}):_vm._e()],1),(_vm.predictions && _vm.showPredictions)?_c('place-autocomplete-list',{attrs:{"items":_vm.predictions},on:{"item:click":_vm.onItemClick,"item:blur":_vm.onItemBlur}}):_vm._e()],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/PlaceAutocompleteField.vue?vue&type=template&id=73cf674d&
+// CONCATENATED MODULE: ./src/PlaceAutocompleteField.vue?vue&type=template&id=2f24ad65&
 
 // CONCATENATED MODULE: ./src/Helpers/Geocode.js
 function geocode(options) {
@@ -2575,9 +2575,6 @@ var InputField_component = normalizeComponent(
 /* harmony default export */ var Components_InputField = (InputField);
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/PlaceAutocompleteField.vue?vue&type=script&lang=js&
-//
-//
-//
 //
 //
 //
