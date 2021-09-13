@@ -1,6 +1,7 @@
 <template>
     <div class="autocomplete-field" @keydown="onKeydown" @keyup="onKeyup" role="combobox" aria-haspopup="listbox">
         <input-field
+            :id="id"
             v-model="query"
             v-bind-events
             v-bind="$attrs"
@@ -71,6 +72,8 @@ export default {
     },
 
     props: {
+
+        id: String,
 
         apiKey: String,
 
