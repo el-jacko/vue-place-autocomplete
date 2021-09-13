@@ -1,7 +1,6 @@
 <template>
     <div class="autocomplete-field" @keydown="onKeydown" @keyup="onKeyup" role="combobox" aria-haspopup="listbox">
         <input-field
-            :id="id"
             v-model="query"
             v-bind-events
             v-bind="$attrs"
@@ -9,9 +8,6 @@
             :errors="errors"
             :value="value"
             :custom="custom"
-            aria-autocomplete="both"
-            aria-controls="vue-place-autocomplete-listbox"
-            autocomplete="no"
             @blur="onBlur"
             @focus="onFocus"
             @input="$emit('input', query)">
@@ -72,8 +68,6 @@ export default {
     },
 
     props: {
-
-        id: String,
 
         apiKey: String,
 
